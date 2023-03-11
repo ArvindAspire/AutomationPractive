@@ -1,0 +1,15 @@
+<suite name ="Test">
+
+    <!--<listeners>
+        <listener class-name ="AnnotationTransformer"/>
+
+
+    </listeners>-->
+    <test name ="Test Run chrome"  >
+        <parameters name ="browser" value = "chrome"></parameters>
+        <classes>
+            <class name="Runner.TestNGRunner" />
+        </classes>
+    </test>
+
+</suite>
